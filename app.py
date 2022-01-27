@@ -16,11 +16,6 @@ def index():
 
     return jsonify(name), 201
 
-@app.route('/file')
-def file():
-   
-    return render_template('index.html')
-
 
 @app.route('/Get_Album')
 def my_route():
