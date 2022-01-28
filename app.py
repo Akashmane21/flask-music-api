@@ -1,7 +1,5 @@
-import os
 from flask import *
-from flask_cors import CORS
-from flask_sqlalchemy import SQLAlchemy
+
 from bs4 import BeautifulSoup as bs
 import requests
 
